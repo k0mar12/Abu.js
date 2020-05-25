@@ -1,0 +1,39 @@
+{
+  "name": "wet",
+  "version": "1.0.0",
+  "description": "Game engine based on three.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [
+    "Game Development",
+    "Game Engine",
+    "Canvas",
+    "3D",
+    "WebGL"
+  ],
+  "author": "Vlad Poshvaniuk <vladlovedance@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.114.0",
+    "three-gltf-loader": "^1.111.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/plugin-proposal-private-methods": "^7.8.3",
+    "@babel/plugin-transform-async-to-generator": "^7.8.3",
+    "@babel/plugin-transform-regenerator": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "path": "^0.12.7",
+    "uuid": "^7.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
